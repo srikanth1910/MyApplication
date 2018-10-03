@@ -22,7 +22,7 @@ import org.fourthline.cling.model.types.ServiceType;
 import org.fourthline.cling.model.types.UDAServiceType;
 
 /**
- * @author Christian Bauer
+ * @author Christian Bauer -- Your the Man!!
  */
 // DOC:CLASS
 public class BrowserUpnpService extends AndroidUpnpServiceImpl {
@@ -36,8 +36,6 @@ public class BrowserUpnpService extends AndroidUpnpServiceImpl {
             public int getRegistryMaintenanceIntervalMillis() {
                 return 7000;
             }
-            // DOC:REGISTRY
-
             // DOC:SERVICE_TYPE
             @Override
             public ServiceType[] getExclusiveServiceTypes() {
@@ -45,7 +43,6 @@ public class BrowserUpnpService extends AndroidUpnpServiceImpl {
                         new UDAServiceType("SwitchPower")
                 };
             }
-            // DOC:SERVICE_TYPE
         };
     }
 }

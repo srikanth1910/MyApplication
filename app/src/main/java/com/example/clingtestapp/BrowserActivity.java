@@ -316,7 +316,7 @@ public class BrowserActivity extends ListActivity {
             DeviceDisplay that = (DeviceDisplay) o;
             return device.equals(that.device);
         }
-
+	// This is to test some changes
         @Override
         public int hashCode() {
             return device.hashCode();
